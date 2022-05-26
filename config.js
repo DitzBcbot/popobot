@@ -42,7 +42,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.stiker_wait = 'Tunggu bentar yak 😘😖🥰'
-global.packname = '.'
+global.packname = ''
 global.author = `⌤︎\nP\nO\nP\nO\n-\n𝗕\n𝗢\n𝗧\n✦\n\n❒
 Whatsapp BOT\nwa.me/62831331622951`
 global.wm = '𝙿𝚘𝚙𝚘 𝙱𝚘𝚝 - ポポ ボット - 포포 봇'
