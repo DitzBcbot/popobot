@@ -15,6 +15,7 @@ let { perfomance } = require('perf_hooks')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
+  
   ⬣───「 *DASHBOARD* 」───⬣
   
 ┌─── 「 TODAY 」───⬣
@@ -72,7 +73,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'quotes' : '*MENU QUOTES*',
   'rpg': '*MENU RPG*',
   'stalk': '*MENU STALK*',
-  'shortlink': '*SHORT LINK',
+  'shortlink': '*SHORT LINK*',
   'tools': '*MENU TOOLS*',
   'vote': '*MENU VOTING*',
   }
@@ -231,7 +232,6 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃⬡ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
 ┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-┃⬡ スパムしないでください
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
@@ -416,8 +416,8 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            hydratedFooterText: wm,
            hydratedButtons: [{
             urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://Hyzerr.github.io/'
+               displayText: 'JOIN GROUP',
+               url: 'https://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY'
              }
 
            },
